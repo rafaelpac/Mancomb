@@ -1,4 +1,4 @@
-audio { display:none;}
+audio { margin: 0 auto; display: block;}
 
 html, body {
   height: 100%;
