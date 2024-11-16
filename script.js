@@ -39,7 +39,7 @@ const gameFlow = { 1: { 'left':   13, 'center': null, 'right':   11},
 let itens = [];
 
 function clickFlow(button) {
-  let currentScene = parseInt(document.getElementById("scene").src.split("/")[4].split(".")[0]);
+  let currentScene = parseInt(document.getElementById("scene").src.split("/")[5].split(".")[0]);
   let dest = gameFlow[currentScene][button];
 
   if (dest == 17) {
