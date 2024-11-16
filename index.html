@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Adventures of Mancomb Seepgood</title>
+  <link rel="icon" type="image/png" href="/mancomb/grog.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--
+  <iframe src="./mancomb/Track12.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+  </iframe> 
+  <audio autoplay controls loop id="playAudio">
+    <source src="./mancomb/Track12.mp3" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+  -->
+  
+  <img src="./mancomb/capa.png" id="top">
+  
+  <p id="reference">Based on <a href="https://www.reddit.com/r/comics/comments/v0f1g1/adventures_of_mancomb_seepgood_a_monkey_island/" target="_blank">this great cartoon</a> by <a href="https://twitter.com/peacojoh" target="_blank">John Peacock</a>!</p>
+  
+  <img src="./mancomb/1.png" id="scene">
+
+  <div class="grid-container">
+    <div><button onclick="clickFlow('left')" id="left-button" class="button">13</button></div>
+    <div><button onclick="clickFlow('center')" id="center-button" class="button disabled"></button></div>
+    <div><button onclick="clickFlow('right')" id="right-button" class="button">11</button></div>
+  </div>
+
+  <br><br>
+  <div id="inventory" class="grid-container">
+    <div>
+      <img src="./mancomb/youhave.png">
+      <img src="./mancomb/noitems.png" id="noitems">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
